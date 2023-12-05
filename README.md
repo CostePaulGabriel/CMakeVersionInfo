@@ -22,9 +22,7 @@ generation on MACOS is work in progress.
 
 To use this module in your CMake project you would simply need to copy the GenerateVersionInfo.cmake file.
 After that, you will need to tell CMake where to find this module, I recommend having a directory with all modules,
-then tell CMake where your modules are.
-
-You can point CMake to your modules with the 'set(CMAKE_MODULE_PATH "path_to_cmake_modules")' command.
+then point CMake to your modules with the 'set(CMAKE_MODULE_PATH "path_to_cmake_modules")' command.
 
 Then you simply include it using 'include(GenerateVersionInfo.cmake)' and call the 'generate_version_info' function.
 
