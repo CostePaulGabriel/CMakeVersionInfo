@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Backups
+*.bak
+
+# MSVC
+*.vs
+out/
+build/
